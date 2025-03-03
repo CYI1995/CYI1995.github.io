@@ -1,6 +1,6 @@
 ---
 permalink: /publications/
-title: "publications"
+title: "Publications"
 ---
 
 - C. Yi, X. Li, H. Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
