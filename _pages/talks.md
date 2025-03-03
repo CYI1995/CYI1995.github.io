@@ -1,6 +1,6 @@
 ---
 permalink: /talks/
-title: "talks"
+title: "Talks"
 ---
 
 - “Analysis of high order dynamical decoupling with relative integral action”, Quantum Hub Online Seminar,
