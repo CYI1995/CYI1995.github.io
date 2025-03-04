@@ -62,7 +62,7 @@ author:
   avatar : "/assets/images/changhao-yi.jpg"
   bio    : "Peace."
   links:
- label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "yichangh@fudan.edu.cn"
    # - label: "Twitter"
