@@ -6,7 +6,7 @@ title: "Publications"
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
 (2025)
 
-- **Changhao Yi**, Kai Zhou, Zhibo Hou, Guoyong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
+- **Changhao Yi**, Kai Zhou, Zhibo Hou, Guo-Yong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
 collective measurements. arXiv:2412.03383 (2024)
 
 - **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
