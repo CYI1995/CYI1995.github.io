@@ -62,18 +62,15 @@ author:
   avatar : "/assets/images/changhao-yi.jpg"
   bio    : "Peace."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cyi1995.github.io/"
+ label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "yichangh@fudan.edu"
    # - label: "Twitter"
    #   icon: "fab fa-fw fa-twitter-square"
    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CYI1995"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-email"
-      url: "https://instagram.com/"
 
 footer:
   links:
