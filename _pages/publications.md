@@ -17,6 +17,8 @@ collective measurements. arXiv:2412.03383 (2024)
 - Chengsi Mao, **Changhao Yi**, Huangjun Zhu. The magic in qudit shadow estimation based on the Clifford group. arXiv:2410.13572
 (2024)
 
+- Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. arXiv:2410.14538
+
 - **Changhao Yi**, Leeseok Kim, Milad Marvian. Faster randomized dynamical decoupling. arXiv:2409.18369 (2024)
 
 - Kai Zhou, **Changhao Yi**, Wen-Zhe Yan, Zhibo Hou, Huangjun Zhu, Guo-Yong Xiang, Chuan-feng Li, Guang-Can Guo. Experimental optimal quantum state
