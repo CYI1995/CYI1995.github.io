@@ -8,7 +8,7 @@ author_profile: true
 
 I am a postdoc in Physics Department, Fudan University supervised by Prof. Huangjun Zhu. Before that, I was a PhD student in University of New Mexico, supervised by Prof. Milad Marvian and Prof. Elizabeth Crosson. My research interests are in the area of quantum information and quantum computing.  My current research projects include
 
-- Quantum simulation and its applications
-- Fundamental questions in quantum information science
+- Quantum simulation and its applications, e.g., Trotter-Suzuki formula, quantum phase estimation, and Hamiltonian learning
+- Fundamental questions in quantum information science, e.g., entanglement detection, quantum tomograpphy, and Clifford group.
 
 My current email address is yichangh@fudan.edu.cn
