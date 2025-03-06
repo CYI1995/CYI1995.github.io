@@ -10,6 +10,6 @@ I am a postdoc in Physics Department, Fudan University supervised by Prof. Huang
 
 - Quantum simulation and its applications, e.g., Trotter-Suzuki formula, quantum phase estimation, and learning tasks in quantum dynamics;
 - Dynamical decoupling and quantum noise spectroscopy;
-- Fundamental questions in quantum information science, e.g., entanglement detection, quantum tomograpphy, and properties of Clifford group.
+- Fundamental questions in quantum information science, e.g., entanglement detection, quantum tomography, and properties of Clifford group.
 
 My current email address is yichangh@fudan.edu.cn
