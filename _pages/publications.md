@@ -4,7 +4,7 @@ title: "Publications"
 ---
 
 
-##[Preprints]
+## [Preprints]
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
 (2025)
 
@@ -24,7 +24,7 @@ collective measurements. arXiv:2412.03383 (2024)
 - Kai Zhou, **Changhao Yi**, Wen-Zhe Yan, Zhibo Hou, Huangjun Zhu, Guo-Yong Xiang, Chuan-feng Li, Guang-Can Guo. Experimental optimal quantum state
 estimation with genuine three-copy collective measurements. arXiv:2312.01651 (2023)
 
-##[Refereed Journal Papers]
+## [Refereed Journal Papers]
 
 - **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
 
