@@ -3,13 +3,13 @@ permalink: /publications/
 title: "Publications"
 ---
 
+
+##[Preprints]
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
 (2025)
 
 - **Changhao Yi**, Kai Zhou, Zhibo Hou, Guo-Yong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
 collective measurements. arXiv:2412.03383 (2024)
-
-- **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
 
 - Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. arXiv:2410.13575
 (2024)
@@ -23,6 +23,10 @@ collective measurements. arXiv:2412.03383 (2024)
 
 - Kai Zhou, **Changhao Yi**, Wen-Zhe Yan, Zhibo Hou, Huangjun Zhu, Guo-Yong Xiang, Chuan-feng Li, Guang-Can Guo. Experimental optimal quantum state
 estimation with genuine three-copy collective measurements. arXiv:2312.01651 (2023)
+
+##[Refereed Journal Papers]
+
+- **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
 
 - **Changhao Yi**, Elizabeth Crosson. Spectral analysis of product formulas for quantum simulation. npj Quantum Information,
 8(1), 37, (2022)
