@@ -14,7 +14,7 @@ collective measurements. arXiv:2412.03383 (2024)
 - Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. arXiv:2410.13575
 (2024)
 
-- Chengsi Mao, **Changhao Yi**, Huangjun Zhu. The magic in qudit shadow estimation based on the Clifford group. arXiv:2410.13572
+- Chengsi Mao, **Changhao Yi**, Huangjun Zhu. Qudit Shadow Estimation Based on the Clifford Group and the Power of a Single Magic Gate. Physics Review Letters 134, 160801
 (2024)
 
 - Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. arXiv:2410.14538 (2024)
