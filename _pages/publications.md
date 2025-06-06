@@ -27,7 +27,7 @@ collective measurements. Physics Review A 111, 062409, (2025).
 - Chengsi Mao, **Changhao Yi**, Huangjun Zhu. Qudit Shadow Estimation Based on the Clifford Group and the Power of a Single Magic Gate. Physics Review Letters. 134, 160801, 
 (2025)
 
-- **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
+- **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579, (2024)
 
 - **Changhao Yi**, Elizabeth Crosson. Spectral analysis of product formulas for quantum simulation. npj Quantum Information,
 8(1), 37, (2022)
