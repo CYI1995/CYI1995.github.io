@@ -20,13 +20,12 @@ title: "Publications"
 ## Refereed Journal Papers
 
 - **Changhao Yi**, Kai Zhou, Zhibo Hou, Guo-Yong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
-collective measurements. arXiv:2412.03383 (2024). Accepted by Physics Review A.
+collective measurements. Physics Review A 111, 062409, (2025).
 
-- Kai Zhou, **Changhao Yi**, Wen-Zhe Yan, Zhibo Hou, Huangjun Zhu, Guo-Yong Xiang, Chuan-feng Li, Guang-Can Guo. Experimental optimal quantum state
-estimation with genuine three-copy collective measurements. arXiv:2312.01651 (2023). Accepted by Physics Review Letters.
+- Kai Zhou, **Changhao Yi**, Wen-Zhe Yan, Zhibo Hou, Huangjun Zhu, Guo-Yong Xiang, Chuan-feng Li, Guang-Can Guo. Experimental Realization of Genuine Three-Copy Collective Measurements for Optimal Information Extraction. Physics Review Letters. 134, 210201, (2025)
 
-- Chengsi Mao, **Changhao Yi**, Huangjun Zhu. Qudit Shadow Estimation Based on the Clifford Group and the Power of a Single Magic Gate. Physics Review Letters. 134, 160801
-(2024)
+- Chengsi Mao, **Changhao Yi**, Huangjun Zhu. Qudit Shadow Estimation Based on the Clifford Group and the Power of a Single Magic Gate. Physics Review Letters. 134, 160801, 
+(2025)
 
 - **Changhao Yi**\*, Cunlu Zhou\*, Jun Takahashi. Quantum phase estimation by compressed sensing. Quantum 8, 1579(2024)
 
