@@ -5,7 +5,7 @@ title: "Publications"
 
 
 ## Preprints
--- **Changhao Yi**, Cunlu Zhou. Ancilla-Free Quantum Protocol for Thermal Green's Functions. arXiv:2509.03288
+- **Changhao Yi**, Cunlu Zhou. Ancilla-Free Quantum Protocol for Thermal Green's Functions. arXiv:2509.03288
 
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
 (2025).
