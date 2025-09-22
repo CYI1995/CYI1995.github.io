@@ -2,8 +2,9 @@
 permalink: /cv/
 title: "CV"
 ---
+- Lecturer, College of Sciences, Shanghai University                                         (2025 -  )
 
-- Postdoc, Physics Department, Fudan University, Supervised by Huangjun Zhu               (2022 -  )
+- Postdoc, Physics Department, Fudan University, Supervised by Huangjun Zhu               (2022 -  2025)
 
 - PhD, Department of Physics and Astronomy, University of New Mexico, Supervised by Milad Marvian
 and Elizabeth Crosson                                                                     (2017 - 2022)
