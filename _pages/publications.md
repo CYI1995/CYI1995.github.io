@@ -19,7 +19,7 @@ title: "Publications"
 
 ## Refereed Journal Papers
 
-- - Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. PRX Quantum 6, 030366 (2025).
+- Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. PRX Quantum 6, 030366 (2025).
 
 - **Changhao Yi**, Kai Zhou, Zhibo Hou, Guo-Yong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
 collective measurements. Physics Review A 111, 062409, (2025).
