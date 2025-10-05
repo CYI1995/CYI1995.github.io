@@ -13,13 +13,13 @@ title: "Publications"
 - Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. arXiv:2410.13575
 (2024).
 
-- Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. arXiv:2410.14538 (2024).
-
 - **Changhao Yi**, Leeseok Kim, Milad Marvian. Faster randomized dynamical decoupling. arXiv:2409.18369 (2024).
 
 
 
 ## Refereed Journal Papers
+
+- - Zihao Li, **Changhao Yi**, You Zhou, Huangjun Zhu. Nearly query-optimal classical shadow estimation of unitary channels. PRX Quantum 6, 030366 (2025).
 
 - **Changhao Yi**, Kai Zhou, Zhibo Hou, Guo-Yong Xiang, Huangjun Zhu. Optimal estimation of three parallel spins with genuine and restricted
 collective measurements. Physics Review A 111, 062409, (2025).
