@@ -3,7 +3,7 @@ permalink: /talks/
 title: "Talks"
 ---
 
-- "Ancilla-free protocol for many-body Green's function", Fudan University, Shanghai Center for Mathematical Sciences Seminar, Fudan Univesity, Dec 12th, 2025
+- "Ancilla-free protocol for many-body Green's function", Shanghai Center for Mathematical Sciences Seminar, Fudan Univesity, Dec 12th, 2025
 
 - "Faster randomized dynamical decoupling", 2025 Shanghai Annual Academic Conference on Atomic, Molecular, and Optical Physics, Shanghai University, Nov 29th, 2025
   
