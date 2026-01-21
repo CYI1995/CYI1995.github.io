@@ -3,6 +3,10 @@ permalink: /talks/
 title: "Talks"
 ---
 
+- "Faster randomized dynamical decoupling", Quantum Artificial Intelligence Senimar, Fudan University, Jan 17th, 2026
+
+- "Faster randomized dynamical decoupling", Senimar, Shanghai University, Jan 15th, 2026
+
 - "Ancilla-free protocol for many-body Green's function", Shanghai Center for Mathematical Sciences Seminar, Fudan Univesity, Dec 12th, 2025
 
 - "Faster randomized dynamical decoupling", 2025 Shanghai Annual Academic Conference on Atomic, Molecular, and Optical Physics, Shanghai University, Nov 29th, 2025
