@@ -5,6 +5,9 @@ title: "Publications"
 
 
 ## Preprints
+
+- **Changhao Yi**. Certifying entanglement dimensionality by random Pauli sampling. arXiv:2601.11040 (2026).
+
 - **Changhao Yi**, Cunlu Zhou. Ancilla-Free Quantum Protocol for Thermal Green's Functions. arXiv:2509.03288 (2025).
 
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
