@@ -10,14 +10,13 @@ title: "Publications"
 
 - **Changhao Yi**, Cunlu Zhou. Ancilla-Free Quantum Protocol for Thermal Green's Functions. arXiv:2509.03288 (2025).
 
-- **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. arXiv:2501.15360
-(2025).
-
 - Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. arXiv:2410.13575
 (2024).
 
 
 ## Refereed Journal Papers
+
+- **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. PRX Quantum 7, 010356, (2026).
 
 - **Changhao Yi**, Leeseok Kim, Milad Marvian. Faster randomized dynamical decoupling. Physics Review Letters. 136, 010601, 
 (2026).
