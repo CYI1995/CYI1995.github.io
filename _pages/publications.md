@@ -16,7 +16,7 @@ title: "Publications"
 
 ## Refereed Journal Papers
 
-- **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by reduction moments. PRX Quantum 7, 010356, (2026).
+- **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by _k_-reduction moments. PRX Quantum 7, 010356, (2026).
 
 - **Changhao Yi**, Leeseok Kim, Milad Marvian. Faster randomized dynamical decoupling. Physics Review Letters. 136, 010601, 
 (2026).
