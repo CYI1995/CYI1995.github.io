@@ -6,15 +6,16 @@ title: "Publications"
 
 ## Preprints
 
+- **Changhao Yi**, Cunlu Zhou, Jun Takahashi. Modular-Annihilator Parent Hamiltonians for Purified Gibbs States: Spectral Design
+and Controlled Approximation. arXiv:2608.30272 (2026).
+
 - **Changhao Yi**. Certifying entanglement dimensionality by random Pauli sampling. arXiv:2601.11040 (2026).
 
-- **Changhao Yi**, Cunlu Zhou. Ancilla-Free Quantum Protocol for Thermal Green's Functions. arXiv:2509.03288 (2025).
-
-- Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. arXiv:2410.13575
-(2024).
-
-
 ## Refereed Journal Papers
+
+- Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. Commun. Math. Phys. 407, 242 (2026).
+
+- **Changhao Yi**, Cunlu Zhou. A symmetry-enabled direct quantum protocol for many-body Green's functions. Quantum 10, 2245 (2026).
 
 - **Changhao Yi**\*, Xiaodi Li\*, Huangjun Zhu. Certifying entanglement dimensionality by _k_-reduction moments. PRX Quantum 7, 010356, (2026).
 
