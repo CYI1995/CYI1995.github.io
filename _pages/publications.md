@@ -13,7 +13,7 @@ and Controlled Approximation. arXiv:2608.30272 (2026).
 
 ## Refereed Journal Papers
 
-- Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. Commun. Math. Phys. 407, 242 (2026).
+- Huangjun Zhu, Chengsi Mao, **Changhao Yi**. Third moments of qudit Clifford orbits and 3-designs based on magic orbits. Communications in Mathematical Physics, 407, 242 (2026).
 
 - **Changhao Yi**, Cunlu Zhou. A symmetry-enabled direct quantum protocol for many-body Green's functions. Quantum 10, 2245 (2026).
 
