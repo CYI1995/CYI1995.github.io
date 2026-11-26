@@ -1,0 +1,370 @@
+---
+# Visual customizations for the existing Minimal Mistakes site.
+# Content, navigation, and author metadata remain managed by Jekyll.
+---
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Editorial academic palette */
+:root {
+  --cy-ink: #182b40;
+  --cy-text: #344353;
+  --cy-muted: #5b6c7c;
+  --cy-accent: #216b79;
+  --cy-accent-dark: #164d5b;
+  --cy-line: #dce5e9;
+  --cy-surface: #ffffff;
+  --cy-wash: #f4f8f8;
+  --cy-paper: #f6f8f9;
+  --cy-serif: Georgia, "Times New Roman", serif;
+  --cy-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --cy-shadow: 0 12px 40px rgba(24, 43, 64, 0.055);
+}
+
+html {
+  background-color: var(--cy-paper);
+  font-size: 16px;
+}
+body {
+  color: var(--cy-text);
+  background-color: var(--cy-paper);
+  background-image: radial-gradient(ellipse at 91% 4%, rgba(99,155,164,0.12), transparent 38%),
+                    radial-gradient(ellipse at 5% 32%, rgba(165,180,202,0.1), transparent 30%);
+  font-family: var(--cy-sans);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:visited { color: var(--cy-accent-dark); }
+a:hover { color: var(--cy-accent); }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 2px solid var(--cy-accent);
+  outline-offset: 4px;
+}
+
+/* Restrained, spacious masthead. */
+.masthead {
+  background: #fff;
+  border-top: 4px solid #216b79;
+  border-bottom: 1px solid var(--cy-line);
+  box-shadow: 0 3px 16px rgba(24,43,64,0.025);
+  animation: none;
+}
+.masthead__inner-wrap {
+  max-width: 1220px;
+  padding: 1.05rem 2rem;
+}
+.greedy-nav { background: transparent; min-height: 2.8rem; }
+.greedy-nav a {
+  color: var(--cy-ink);
+  font-family: var(--cy-sans);
+  font-size: 0.92rem;
+  font-weight: 550;
+  letter-spacing: 0.015em;
+}
+.greedy-nav a:hover, .greedy-nav a:focus-visible { color: var(--cy-accent); }
+.greedy-nav .site-title {
+  color: var(--cy-ink);
+  font-family: var(--cy-serif);
+  font-size: 1.48rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+.greedy-nav .site-title::before {
+  content: "";
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.62rem;
+  margin-right: 0.7rem;
+  border-radius: 50%;
+  background: var(--cy-accent);
+  box-shadow: 0 0 0 4px #e4eff0;
+  vertical-align: 0.12em;
+}
+.greedy-nav .visible-links a {
+  margin: 0 0.85rem;
+  padding: 0.45rem 0.1rem;
+}
+.greedy-nav .visible-links a::before {
+  height: 2px;
+  background: var(--cy-accent);
+  border-radius: 2px;
+}
+.search__toggle { color: var(--cy-accent-dark); }
+.greedy-nav .hidden-links {
+  background: #fff;
+  border: 1px solid var(--cy-line);
+  border-radius: 10px;
+  box-shadow: var(--cy-shadow);
+}
+
+/* Keep the original layout and content model, using a balanced two-column grid
+   for the author-profile pages. */
+#main { max-width: 1220px; padding-inline: 2rem; }
+body.layout--single #main {
+  margin-top: 2.8rem;
+  margin-bottom: 3.5rem;
+}
+body.layout--single #main:has(> .sidebar):has(> article.page) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+body.layout--single #main:has(> .sidebar):has(> article.page)::after,
+body.layout--single #main:has(> .sidebar):has(> article.page)::before {
+  content: none;
+}
+body.layout--single #main > .sidebar,
+body.layout--single #main > article.page {
+  float: none;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+body.layout--single #main > .sidebar {
+  opacity: 1;
+  z-index: 4;
+}
+body.layout--single #main > article.page {
+  color: var(--cy-text);
+  background: var(--cy-surface);
+  border: 1px solid var(--cy-line);
+  border-radius: 18px;
+  box-shadow: var(--cy-shadow);
+  padding: 2.5rem 3rem;
+}
+body.layout--single .page__inner-wrap {
+  margin: 0;
+  width: 100%;
+}
+
+/* Profile card. All original photograph, bio, and links remain intact. */
+.sidebar .h-card {
+  position: relative;
+  padding: 1.5rem;
+  background: var(--cy-surface);
+  border: 1px solid var(--cy-line);
+  border-radius: 18px;
+  box-shadow: var(--cy-shadow);
+}
+.sidebar .h-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  border-radius: 18px 18px 0 0;
+  background: linear-gradient(90deg, #24647b, #72a5a5);
+}
+.sidebar .author__avatar img {
+  max-width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 0;
+  box-shadow: 0 0 0 1px #d8e4e6, 0 5px 14px rgba(24,43,64,0.12);
+}
+.sidebar .author__name {
+  color: var(--cy-ink);
+  font-family: var(--cy-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+.sidebar .author__name a { color: var(--cy-ink); }
+.sidebar .author__bio {
+  color: var(--cy-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.sidebar .author__urls a {
+  color: var(--cy-accent-dark);
+  font-size: 0.90rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.sidebar .author__urls a:hover {
+  color: var(--cy-accent);
+  text-decoration: none;
+}
+.sidebar .author__urls a i { color: var(--cy-accent); }
+.sidebar .author__urls-wrapper .btn {
+  background: var(--cy-accent-dark);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Typesetting for biography, publications, talks, and CV. */
+.page__title {
+  color: var(--cy-ink);
+  font-family: var(--cy-serif);
+  font-size: clamp(2rem, 3.4vw, 2.65rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+  margin: 0 0 1.7rem;
+}
+.page__title a { color: inherit; text-decoration: none; }
+.page__title::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin-top: 1rem;
+  border-radius: 2px;
+  background: var(--cy-accent);
+}
+.page__content {
+  font-size: 1.025rem;
+  line-height: 1.8;
+}
+.page__content p, .page__content li, .page__content dl {
+  font-size: inherit;
+  line-height: inherit;
+}
+.page__content p { margin-bottom: 1.15rem; }
+.page__content h2, .page__content h3, .page__content h4 {
+  color: var(--cy-ink);
+  font-family: var(--cy-serif);
+  letter-spacing: -0.018em;
+  line-height: 1.35;
+}
+.page__content h2 {
+  font-size: 1.48rem;
+  border-bottom: 1px solid var(--cy-line);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+}
+.page__content h2:first-child { margin-top: 0; }
+.page__content a:not(.btn) {
+  color: var(--cy-accent-dark);
+  text-decoration-color: #99c1c4;
+  text-underline-offset: 0.18em;
+}
+.page__content a:not(.btn):hover { text-decoration-color: var(--cy-accent-dark); }
+.page__content strong { color: var(--cy-ink); font-weight: 650; }
+.page__content > ul { padding-left: 1.4rem; }
+.page__content > ul > li {
+  padding: 0.75rem 0 0.75rem 0.2rem;
+  border-bottom: 1px solid var(--cy-line);
+  margin-bottom: 0;
+}
+.page__content > ul > li:last-child { border-bottom: 0; }
+.page__content > ul > li::marker { color: var(--cy-accent); }
+.page__content > ul > li > p { margin: 0; }
+.page__content > ul > li > p + p { margin-top: 0.6rem; }
+
+/* The title-free homepage gets a distinctive introductory treatment without
+   inserting or rewriting a single line of its Markdown. */
+.page__inner-wrap > header:not(:has(.page__title)) + .page__content {
+  font-size: 1.13rem;
+  line-height: 1.85;
+}
+.page__inner-wrap > header:not(:has(.page__title)) + .page__content::before {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  display: block;
+  background: linear-gradient(90deg,#216b79,#8db7b6);
+  border-radius: 2px;
+  margin-bottom: 1.6rem;
+}
+.page__inner-wrap > header:not(:has(.page__title)) + .page__content > ul {
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+}
+.page__inner-wrap > header:not(:has(.page__title)) + .page__content > ul > li {
+  background: var(--cy-wash);
+  border: 1px solid #e0eaeb;
+  border-radius: 11px;
+  padding: 0.85rem 1rem;
+  margin: 0 0 0.75rem;
+}
+.page__inner-wrap > header:not(:has(.page__title)) + .page__content > ul > li:last-child {
+  border-bottom: 1px solid #e0eaeb;
+}
+.page__meta:empty { display: none; }
+
+.page__footer {
+  background: #21394b;
+  color: #e0e9ed;
+  border-top: 0;
+  font-size: 0.85rem;
+}
+.page__footer footer {
+  max-width: 1220px;
+  padding: 1.9rem 2rem;
+}
+.page__footer a, .page__footer a:visited, .page__footer .social-icons .fas,
+.page__footer .social-icons .fab { color: #e6f1f3; }
+.page__footer a:hover { color: #fff; }
+.page__footer-follow, .page__footer-copyright {
+  color: #d8e5e8;
+}
+
+@media (min-width: 64em) {
+  body.layout--single #main:has(> .sidebar):has(> article.page) {
+    grid-template-columns: 255px minmax(0, 1fr);
+    gap: 2.1rem;
+  }
+  body.layout--single #main > .sidebar.sticky { position: sticky; top: 1.5rem; }
+  .sidebar .h-card { padding: 1.9rem 1.3rem 1.35rem; text-align: center; }
+  .sidebar .author__avatar { display: block; width: 100%; height: auto; }
+  .sidebar .author__avatar img { max-width: 140px; }
+  .sidebar .author__content { display: block; padding: 0; }
+  .sidebar .author__name { margin: 1.15rem 0 0.5rem; }
+  .sidebar .author__bio p { margin: 0; }
+  .sidebar .author__urls-wrapper { display: block; margin-top: 1.25rem; }
+  .sidebar .author__urls {
+    text-align: left;
+    padding: 0.9rem 0 0;
+    border-top: 1px solid var(--cy-line);
+  }
+  .sidebar .author__urls li { padding: 0; margin: 0.15rem 0; }
+  .sidebar .author__urls a {
+    display: block;
+    padding: 0.55rem 0.65rem;
+    border-radius: 8px;
+    transition: background-color 160ms ease;
+  }
+  .sidebar .author__urls a:hover { background: #edf5f5; }
+}
+@media (max-width: 63.99em) {
+  body.layout--single #main { margin-top: 1.6rem; margin-bottom: 2rem; }
+  body.layout--single #main > .sidebar.sticky { position: relative; top: auto; }
+  body.layout--single #main > article.page { padding: 2rem 2.2rem; }
+  .sidebar .h-card { display: flow-root; padding: 1.25rem; }
+}
+@media (max-width: 38em) {
+  .masthead__inner-wrap, #main, .page__footer footer { padding-inline: 1rem; }
+  .greedy-nav .site-title { font-size: 1.18rem; }
+  .greedy-nav .visible-links a { margin-inline: 0.5rem; }
+  body.layout--single #main > article.page { padding: 1.6rem 1.25rem; border-radius: 13px; }
+  .sidebar .h-card { border-radius: 13px; }
+  .sidebar .author__avatar img { max-width: 70px; }
+  .sidebar .author__name { font-size: 1.25rem; }
+  .page__content, .page__inner-wrap > header:not(:has(.page__title)) + .page__content {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+  .page__title { font-size: 1.95rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+@media print {
+  body { background: #fff !important; }
+  body.layout--single #main > article.page, .sidebar .h-card {
+    border: 0; box-shadow: none;
+  }
+}
